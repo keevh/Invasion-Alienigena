@@ -1,0 +1,66 @@
+@font-face {
+    font-family: missiondanger;
+    src: url(/fuentes/mission_danger/missiondangerout.ttf);
+}
+@font-face {
+    font-family: doom;
+    src: url(/fuentes/doom/Doom\ And\ Gloom.ttf);
+}
+*{
+    font-family: missiondanger;
+}
+body{
+    background-image: url(/img/giphy480p.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+h1 span {
+    color: #f00;
+}
+#container {
+    border: 5px solid black;
+    background-color: rgba(128, 128, 128, 0.15);
+    display: flex;
+    justify-content: center;
+}
+#container canvas {
+    margin: 20px;
+}
+#container2{
+    margin-top: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#container2 h3{
+    font-family: doom;
+    text-align: center;
+    color: white;
+    font-size: 8rem;
+}
+#container2 h4{
+    font-family: doom;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+#container2 img{
+    display: block;
+    height: 60vh;
+    width: 50vw;
+}
+#container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
